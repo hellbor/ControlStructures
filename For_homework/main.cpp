@@ -10,7 +10,7 @@ using std::endl;
 //#define ASCII
 //#define FIBONACCI_1
 //#define SIMPLEX_NUMBERS
-#define MULTIPLICATION_TABLE
+//#define MULTIPLICATION_TABLE
 //#define PYTHAGORAS
 
 int main()

@@ -2,6 +2,7 @@
 using namespace std;
 
 //#define HARD_CHESS
+//#define HARD_CHESS_2
 
 void main()
 {
@@ -26,14 +27,17 @@ void main()
 	}
 #endif // HARD_CHESS
 
+#ifdef HARD_CHESS_2
 	int n;
 	cout << "¬ведите размер доски:"; cin >> n;
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < n * n; i++)
 	{
-		for (int j = 0; j < n; j++)
+		for (int j = 0; j < n * n; j++)
 		{
-			cout << (i % 2 == j % 2 ? "* " : "  ");
+			cout << (i / n % 2 == j / n % 2 ? "* " : "  ");
 		}
 		cout << endl;
 	}
+#endif // HARD_CHESS_2
+
 }

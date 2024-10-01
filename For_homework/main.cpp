@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 using std::cin;
@@ -19,12 +19,12 @@ int main()
 
 #ifdef FACTORIAL
 	int a, factorial = 1;
-	cout << "Ââåäèòå ÷èñëî:"; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾:"; cin >> a;
 	for (int i = 1; i <= a; i++)
 	{
 		factorial *= i;
 	}
-	cout << "Îòâåò: " << factorial << endl;
+	cout << "ÐžÑ‚Ð²ÐµÑ‚: " << factorial << endl;
 	return 0;
 #endif // FACTORIAL
 
@@ -32,8 +32,8 @@ int main()
 	double a;
 	int n;
 	double N = 1;
-	cout << "Ââåäèòå îñíîâàíèå ñòåïåíè:"; cin >> a;
-	cout << "Ââåäèòå ïîêàçàòåëü ñòåïåíè:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸:"; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾ÐºÐ°Ð·Ð°Ñ‚ÐµÐ»ÑŒ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸:"; cin >> n;
 	if (n < 0)
 	{
 		a = 1 / a;
@@ -57,7 +57,7 @@ int main()
 
 #ifdef FIBONACCI_1
 	int n;
-	cout << "Ââåäèòå ïðåäåëüíîå ÷èñëî:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€ÐµÐ´ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:"; cin >> n;
 	for (int a = 0, b = 1, c = a + b; a <= n; a = b, b = c, c = a + b)
 	{
 		cout << a << "\t";
@@ -67,7 +67,7 @@ int main()
 
 #ifdef SIMPLEX_NUMBERS
 	int n;
-	cout << "Ââåäèòå ïðåäåëüíîå ÷èñëî:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ñ€ÐµÐ´ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:"; cin >> n;
 	for (int i = 0; i <= n; i++)
 	{
 		bool simple = true;
@@ -86,7 +86,7 @@ int main()
 #ifdef MULTIPLICATION_TABLE
 	for (int i = 1; i <= 10; i++)
 	{
-		cout << "Òàáëèöà óìíîæåíèÿ íà " << i << ":\n";
+		cout << "Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° ÑƒÐ¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ñ Ð½Ð° " << i << ":\n";
 		for (int j = 1; j <= 10; j++)
 		{
 			if (i < 10)cout << " ";

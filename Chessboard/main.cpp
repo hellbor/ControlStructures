@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 const int width = 8;
@@ -22,7 +22,7 @@ void main()
 
 #ifdef CHESS
 	int n;
-	cout << "Ââåäèòå ðàçìåð äîñêè:"; cin >> n; n++;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð´Ð¾ÑÐºÐ¸:"; cin >> n; n++;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i <= n; i++)
 	{
@@ -43,7 +43,7 @@ void main()
 
 #ifdef HARD_CHESS
 	int n;
-	cout << "Ââåäèòå ðàçìåð äîñêè:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð´Ð¾ÑÐºÐ¸:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -62,7 +62,7 @@ void main()
 
 #ifdef PASCAL_TRIANGLE
 	int h;
-	cout << "Ââåäèòå âûñîòó òðåóãîëüíèêà:"; cin >> h;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°:"; cin >> h;
 	for (int i = 0; i < h; i++)
 	{
 		cout.width(width / 2);

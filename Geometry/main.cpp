@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <conio.h>
 using namespace std;
 const int width = 8;
@@ -34,7 +34,7 @@ void main()
 
 #ifdef GEOMETRY_0
 	int a;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû:"; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹:"; cin >> a;
 	for (int i = 1; i <= a; i++)
 	{
 		for (int j = 1; j <= a; j++)
@@ -47,7 +47,7 @@ void main()
 
 #ifdef GEOMETRY_1
 	int a;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû:"; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹:"; cin >> a;
 	for (int i = 1; i <= a; i++)
 	{
 		for (int j = 1; j <= i; j++)
@@ -60,7 +60,7 @@ void main()
 
 #ifdef GEOMETRY_2
 	int a;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû:"; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹:"; cin >> a;
 	for (int i = 1; i <= a; i++)
 	{
 		for (int j = 1; j <= a; j++)
@@ -74,7 +74,7 @@ void main()
 
 #ifdef GEOMETRY_3
 	int a;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû:"; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹:"; cin >> a;
 	for (int i = 1; i <= a; i++)
 	{
 		for (int j = 1; j <= a; j++)
@@ -90,7 +90,7 @@ void main()
 
 #ifdef GEOMETRY_4
 	int a;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû:"; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹:"; cin >> a;
 	for (int i = 1; i <= a; i++)
 	{
 		for (int j = 1; j <= a; j++)
@@ -106,7 +106,7 @@ void main()
 
 #ifdef GEOMETRY_5
 	int n;
-	cout << "Ââåäèòå ðàçìåðû ôèãóðû:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€Ñ‹ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i; j < n; j++) cout << " "; cout << "/";
@@ -123,7 +123,7 @@ void main()
 
 #ifdef GEOMETRY_6
 	int n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -136,8 +136,8 @@ void main()
 #ifdef XOR
 	int a;
 	int b;
-	cout << "Ââåäèòå ÷èñëî 1:"; cin >> a;
-	cout << "Ââåäèòå ÷èñëî 2:"; cin >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ 1:"; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ 2:"; cin >> b;
 	a = a ^ b;
 	b = a ^ b;
 	a = a ^ b;
@@ -149,7 +149,7 @@ void main()
 
 #ifdef CHESS_1
 	int n;
-	cout << "Ââåäèòå ðàçìåð äîñêè:"; cin >> n; n++;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð´Ð¾ÑÐºÐ¸:"; cin >> n; n++;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i <= n; i++)
 	{
@@ -171,7 +171,7 @@ void main()
 #ifdef CHESS_2
 
 	int n;
-	cout << "Ââåäèòå ðàçìåð äîñêè:"; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð´Ð¾ÑÐºÐ¸:"; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -191,7 +191,7 @@ void main()
 #ifdef PASCAL_TRIANGLE
 		
 	int h;
-	cout << "Ââåäèòå âûñîòó òðåóãîëüíèêà:"; cin >> h;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°:"; cin >> h;
 	for (int i = 0; i < h; i++)
 	{
 		cout.width(width / 2);

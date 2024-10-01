@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 
@@ -26,13 +26,13 @@ void main()
 	{
 		key = _getch();
 		//cout << (int)key << "\t" << key << endl;
-		if (key == 'w' || key == 'W' || key == UpArrow)cout << "Âïåðåä" << endl;
-		else if (key == 's' || key == 'S' || key == DownArrow)cout << "Íàçàä" << endl;
-		else if (key == 'a' || key == 'A' || key == LeftArrow)cout << "Âëåâî" << endl;
-		else if (key == 'd' || key == 'D' || key == RightArrow)cout << "Âïðàâî" << endl;
-		else if (key == ' ')cout << "Ïðûæîê" << endl;
-		else if (key == 13)cout << "Îãîíü" << endl;
-		else if (key == 27)cout << "Âûõîä" << endl;
+		if (key == 'w' || key == 'W' || key == UpArrow)cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
+		else if (key == 's' || key == 'S' || key == DownArrow)cout << "ÐÐ°Ð·Ð°Ð´" << endl;
+		else if (key == 'a' || key == 'A' || key == LeftArrow)cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;
+		else if (key == 'd' || key == 'D' || key == RightArrow)cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;
+		else if (key == ' ')cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
+		else if (key == 13)cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;
+		else if (key == 27)cout << "Ð’Ñ‹Ñ…Ð¾Ð´" << endl;
 		else if (key != -32)cout << "Error" << endl;
 	} while (key != Escape);
 #endif // SHOOTER_1
@@ -48,19 +48,19 @@ void main()
 		{
 		case 'w':
 		case 'W':
-		case UpArrow:cout << "Âïåðåä" << endl; break;
+		case UpArrow:cout << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl; break;
 		case 's':
 		case 'S':
-		case DownArrow:cout << "Íàçàä" << endl; break;
+		case DownArrow:cout << "ÐÐ°Ð·Ð°Ð´" << endl; break;
 		case 'a':
 		case 'A':
-		case LeftArrow:cout << "Âëåâî" << endl; break;
+		case LeftArrow:cout << "Ð’Ð»ÐµÐ²Ð¾" << endl; break;
 		case 'd':
 		case 'D':
-		case RightArrow:cout << "Âïðàâî" << endl; break;
-		case ' ':cout << "Ïðûæîê" << endl; break;
-		case Enter:cout << "Îãîíü" << endl; break;
-		case Escape:cout << "Âûõîä" << endl;
+		case RightArrow:cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl; break;
+		case ' ':cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl; break;
+		case Enter:cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl; break;
+		case Escape:cout << "Ð’Ñ‹Ñ…Ð¾Ð´" << endl;
 		case -32:break;
 		default: cout << "Error" << endl;
 		}

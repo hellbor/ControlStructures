@@ -1,4 +1,4 @@
-//ControlStructures
+Ôªø//ControlStructures
 #include<iostream>
 #include<conio.h>
 
@@ -17,21 +17,21 @@ void main()
 	setlocale(LC_ALL, "");
 #ifdef IF_ELSE
 	int temperature;
-	cout << "¬‚Â‰ËÚÂ ÚÂÏÔÂ‡ÚÛÛ ‚ÓÁ‰Ûı‡:"; cin >> temperature;
+	cout << "–í–≤–µ–¥–∏—Ç–µ —Ç–µ–º–ø–µ—Ä–∞—Ç—É—Ä—É –≤–æ–∑–¥—É—Ö–∞:"; cin >> temperature;
 	if (temperature > 0)
 	{
-		cout << "Õ‡ ÛÎËˆÂ ÚÂÔÎÓ" << endl;
+		cout << "–ù–∞ —É–ª–∏—Ü–µ —Ç–µ–ø–ª–æ" << endl;
 	}
 	else
 	{
-		cout << "Õ‡ ÛÎËˆÂ ıÓÎÓ‰ÌÓ" << endl;
+		cout << "–ù–∞ —É–ª–∏—Ü–µ —Ö–æ–ª–æ–¥–Ω–æ" << endl;
 	}
 #endif // IF_ELSE
 
 #ifdef WHILE_1
-	int i = 0;  //Ò˜ÂÚ˜ËÍ ˆËÍÎ‡ (loop countr)
-	int n;		//ÍÓÎË˜ÂÒÚ‚Ó ËÚÂ‡ˆËÈ (number of iteration)
-	cout << "¬‚Â‰ËÚÂ ÍÓÎË˜ÂÒÚ‚Ó ËÚÂ‡ˆËÈ:"; cin >> n;
+	int i = 0;  //—Å—á–µ—Ç—á–∏–∫ —Ü–∏–∫–ª–∞ (loop countr)
+	int n;		//–∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –∏—Ç–µ—Ä–∞—Ü–∏–π (number of iteration)
+	cout << "–í–≤–µ–¥–∏—Ç–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –∏—Ç–µ—Ä–∞—Ü–∏–π:"; cin >> n;
 	while (++i < n)
 	{
 		cout << i << "Hello World\n";
@@ -41,7 +41,7 @@ void main()
 
 #ifdef WHILE_2
 	int n;
-	cout << "¬‚Â‰ËÚÂ ÍÓÎË˜ÂÒÚ‚Ó ËÚÂ‡ˆËÈ:"; cin >> n;
+	cout << "–í–≤–µ–¥–∏—Ç–µ –∫–æ–ª–∏—á–µ—Å—Ç–≤–æ –∏—Ç–µ—Ä–∞—Ü–∏–π:"; cin >> n;
 	while (n--)
 	{
 		cout << n << "Hello World" << endl;

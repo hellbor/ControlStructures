@@ -1,4 +1,4 @@
-//Calc
+п»ї//Calc
 #include<iostream>
 using namespace std;
 
@@ -11,9 +11,9 @@ void main()
 	setlocale(LC_ALL, "");
 
 
-	double a, b;	//числа вводимые с клавиатуры
-	char s;			//s - sign (знак операции)
-	cout << "Введите выражение:"; cin >> a >> s >> b;
+	double a, b;	//С‡РёСЃР»Р° РІРІРѕРґРёРјС‹Рµ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹
+	char s;			//s - sign (Р·РЅР°Рє РѕРїРµСЂР°С†РёРё)
+	cout << "Р’РІРµРґРёС‚Рµ РІС‹СЂР°Р¶РµРЅРёРµ:"; cin >> a >> s >> b;
 
 
 

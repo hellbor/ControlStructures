@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 #define UPPER_LEFT_ANGLE	(char)218
@@ -24,14 +24,14 @@ void main()
 	}
 	cout << endl;
 	int n;
-	cout << "Введите размер доски:"; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РґРѕСЃРєРё:"; cin >> n;
 #endif // ASCII
 
 	setlocale(LC_ALL, "");
 #ifdef CHESS
 	int n;
-	cout << "Введите размер доски:"; cin >> n; n++;
-	setlocale(LC_ALL, "C"); //включаем кодировку по умолчанию
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РґРѕСЃРєРё:"; cin >> n; n++;
+	setlocale(LC_ALL, "C"); //РІРєР»СЋС‡Р°РµРј РєРѕРґРёСЂРѕРІРєСѓ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 	for (int i = 0; i <= n; i++)
 	{
 		for (int j = 0; j <= n; j++)

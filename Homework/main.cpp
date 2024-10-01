@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 using std::cout;
 using std::cin;
@@ -18,23 +18,23 @@ void main()
 	double b;
 	char s;
 
-	cout << "Ââåäèòå âûðàæåíèå:"; cin >> a >> s >> b;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ:"; cin >> a >> s >> b;
 
 	if (s == '+')
 	{
-		cout << "Ñóììà ðàâíà:" << a << "+" << b << "=" << a + b << endl;
+		cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ñ€Ð°Ð²Ð½Ð°:" << a << "+" << b << "=" << a + b << endl;
 	}
 	else if (s == '-')
 	{
-		cout << "Ðàçíîñòü ðàâíà:" << a << "-" << b << "=" << a - b << endl;
+		cout << "Ð Ð°Ð·Ð½Ð¾ÑÑ‚ÑŒ Ñ€Ð°Ð²Ð½Ð°:" << a << "-" << b << "=" << a - b << endl;
 	}
 	else if (s == '*')
 	{
-		cout << "Ïðîèçâåäåíèå ðàâíî:" << a << "*" << b << "=" << a * b << endl;
+		cout << "ÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ Ñ€Ð°Ð²Ð½Ð¾:" << a << "*" << b << "=" << a * b << endl;
 	}
 	else if (s == '/')
 	{
-		cout << "Äåëåíèå ðàâíî:" << a << "/" << b << "=" << a / b << endl;
+		cout << "Ð”ÐµÐ»ÐµÐ½Ð¸Ðµ Ñ€Ð°Ð²Ð½Ð¾:" << a << "/" << b << "=" << a / b << endl;
 	}
 #endif // CALCULATOR_1
 
@@ -43,14 +43,14 @@ void main()
 
 	long long number;
 
-	cout << "Ââåäèòå ÷èñëî:"; cin >> number;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾:"; cin >> number;
 
 	{
-		cout << "Ïàëèíäðîì" << endl;
+		cout << "ÐŸÐ°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼" << endl;
 	}
 	else if (number != conversely)
 	{
-		cout << "Íå ïàëèíäðîì" << endl;
+		cout << "ÐÐµ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼" << endl;
 	}
 #endif // CALCULATOR_2
 }

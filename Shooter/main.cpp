@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 
 using namespace std;
@@ -20,19 +20,19 @@ void main()
 	{
 		key = _getch();
 		if (key == 119)
-			cout << "W" << "-" << "Âïåðåä" << endl;
+			cout << "W" << "-" << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl;
 		else if (key == 115)
-			cout << "S" << "-" << "Íàçàä" << endl;
+			cout << "S" << "-" << "ÐÐ°Ð·Ð°Ð´" << endl;
 		else if (key == 97)
-			cout << "A" << "-" << "Âëåâî" << endl;
+			cout << "A" << "-" << "Ð’Ð»ÐµÐ²Ð¾" << endl;
 		else if (key == 100)
-			cout << "D" << "-" << "Âëåâî" << endl;
+			cout << "D" << "-" << "Ð’Ð»ÐµÐ²Ð¾" << endl;
 		else if (key == 32)
-			cout << "SPACE" << "-" << "Ïðûæîê" << endl;
+			cout << "SPACE" << "-" << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
 		else if (key == 13)
-			cout << "ENTER" << "-" << "Îãîíü" << endl;
+			cout << "ENTER" << "-" << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;
 		else if (key == 27)
-			cout << "ESCAPE" << "-" << "Âûõîä" << endl;
+			cout << "ESCAPE" << "-" << "Ð’Ñ‹Ñ…Ð¾Ð´" << endl;
 		else
 			cout << "ERROR" << endl;
 	} while (key != 27);
@@ -46,13 +46,13 @@ void main()
 		key = _getch();
 		switch (key)
 		{
-		case(119):cout << "W" << "-" << "Âïåðåä" << endl; break;
-		case(115):cout << "S" << "-" << "Íàçàä" << endl; break;
-		case(97):cout << "A" << "-" << "Âëåâî" << endl; break;
-		case(100):cout << "D" << "-" << "Âïðàâî" << endl; break;
-		case(32):cout << "SPACE" << "-" << "Ïðûæîê" << endl; break;
-		case(13):cout << "ENTER" << "-" << "Îãîíü" << endl; break;
-		case(27):cout << "ESCAPE" << "-" << "Âûõîä" << endl; break;
+		case(119):cout << "W" << "-" << "Ð’Ð¿ÐµÑ€ÐµÐ´" << endl; break;
+		case(115):cout << "S" << "-" << "ÐÐ°Ð·Ð°Ð´" << endl; break;
+		case(97):cout << "A" << "-" << "Ð’Ð»ÐµÐ²Ð¾" << endl; break;
+		case(100):cout << "D" << "-" << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl; break;
+		case(32):cout << "SPACE" << "-" << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl; break;
+		case(13):cout << "ENTER" << "-" << "ÐžÐ³Ð¾Ð½ÑŒ" << endl; break;
+		case(27):cout << "ESCAPE" << "-" << "Ð’Ñ‹Ñ…Ð¾Ð´" << endl; break;
 		default:cout << "ERROR" << endl;
 		}
 	}
